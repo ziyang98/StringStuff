@@ -13,9 +13,8 @@ public class Main {
 	public static void testSomeStrings() {
 		String test = "Todd Lindemann";
 		long startTime = System.nanoTime();
-		for (int i = 0; i < 10000000; i++) {
-			test = "Steve Hart";
-			test = "Michael Lewis";
+		for (int i = 0; i < 1000000000; i++) {
+
 		}
 		long endTime = System.nanoTime();
 
@@ -29,9 +28,8 @@ public class Main {
 	public static void testSomeStringBuilders() {
 		StringBuilder test = new StringBuilder("Todd Lindemann");
 		long startTime = System.nanoTime();
-		for (int i = 0; i < 10000000; i++) {
-			test.replace(1, 100, "Steve Hart");
-			test.replace(1, 100, "Michael Lewis");
+		for (int i = 0; i < 1000000000; i++) {
+
 		}
 		long endTime = System.nanoTime();
 
